@@ -9,7 +9,7 @@ Brute force saldırısı yaparken, belirli bir deneme sayısından sonra captcha
 Programın çalışma mantığı şu şekildedir: İlk olarak, program sırayla kullanıcı adlarını dener ve "The user {username} does not exist" ifadesini görmediği zaman kullanıcı adını bulur. Daha sonra, bulduğu kullanıcı adını aynı mantıkla dener ve "Invalid password for user '{username}'" ifadesini görmediği zaman şifreyi bulur.
 
 
-Not: Python kodunda url kısmını hedef makinenize göre tekrardan düzenleyiniz.
+Not: Python kodunda url kısmını hedef makinenize göre tekrardan düzenleyiniz. <br>
 Not 2: Programın bulunduğu dizine capture odasının size verdiği usernames.txt ve passwords.txt dosyalarını aynı dizine atınız.
 
 
@@ -23,7 +23,5 @@ During the brute force attack, after a certain number of attempts, a captcha ver
 
 The program works as follows: First, the program tries usernames one by one and finds the username when it does not see the message "The user {username} does not exist". Then, using the same logic, it tries the found username and finds the password when it does not see the message "Invalid password for user '{username}'".
 
-Note: Please adjust the URL in the Python code according to your target machine.
-
-
+Note: Please adjust the URL in the Python code according to your target machine. <br>
 Note 2: Please place the usernames.txt and passwords.txt files provided by the capture room in the same directory as the program.
